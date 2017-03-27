@@ -1,4 +1,4 @@
-//bugs: 
+//bugs:
 //no 8 bit; byte size option
 //account for negative numbers in width function?
 var code;
@@ -249,7 +249,7 @@ function stepInitButton() {
 
 function continueButton() {
   //loop = setInterval(codeStep, delay);
-  //loop = setTimeout(codeStep(true),delay); 
+  //loop = setTimeout(codeStep(true),delay);
   //codeStep(true);
   atBreakpoint = false;
   codeLoop();
@@ -309,7 +309,7 @@ function refactorWidths() {
   while (getWidth(tape, tapelengthShown, getBuffer()) < windowwidth / emsize) {
 
     if (tapelengthShown >= mintapelength) {
-      tapelengthShown = tapelengthShown + 1; //Math.max(tapelengthShown + 1, 4); 
+      tapelengthShown = tapelengthShown + 1; //Math.max(tapelengthShown + 1, 4);
       document.getElementById("tapecontainer").hidden = false;
     } else {
       tapelengthShown = mintapelength;

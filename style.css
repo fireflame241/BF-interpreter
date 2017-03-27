@@ -68,7 +68,7 @@ ul.tape li:last-child {
 .settingbox {
   display: inline-flex;
   margin-left: 1vw;
-  //background-color: #E0E0E0;
+  background-color: #E0E0E0;
   border-radius: 0.2em;
 }
 
@@ -98,27 +98,18 @@ p.spacer {
   visibility: hidden;
 }
 
-#yourcode {
-  text-align: center;
-  display: inline-block;
-  //margin-right: 30vw;
-  //margin-left: 30vw;
-  //margin-top: 4vw;
-  font-size: 1.5em;
-  margin: 0.1em;
-  width: 60vw;
-}
-
 #staticlengthfield {
   width: 3em;
 }
 
 #code {
   width: 90vw;
-  height: 20vh;
+  height: 50vh;
   font-size: 1.2em;
-  background-color: #dddddd;
+  background-color: #b0b0b0;
   font-family: "monospace";
+  border-radius: 1em;
+  border: 2px solid #666666;
 }
 
 #codecontainer {
@@ -137,8 +128,8 @@ p.spacer {
 }
 
 #input {
-  width: 1.5vw;
-  padding: 1vw;
+  width: 1em;
+  padding: 0.2em;
   background-color: #dddddd;
   display: inline-block;
 }
