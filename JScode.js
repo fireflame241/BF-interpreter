@@ -1,6 +1,3 @@
-//bugs:
-//no 8 bit; byte size option
-//account for negative numbers in width function?
 var code;
 var code2;
 var originalcode;
