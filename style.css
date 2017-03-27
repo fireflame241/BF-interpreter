@@ -1,0 +1,189 @@
+ul.tape {
+  display: block;
+  //text-align: center;
+  //width: 100%;
+  //margin-left: 20%;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#body {
+  font-family: "Courier New", Courier, monospace;
+  //font: "ariel-bold";
+}
+
+#tapecontainer {
+  //text-align: center;
+}
+
+ul.tape li {
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  //margin: auto;
+  display: inline-block;
+  //list-style-type: none;
+  border: 0.01em solid black;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.32em;
+  padding-right: 0.32em;
+  border-right: 0.01em solid black;
+  //color: black;
+}
+
+ul.tape li:last-child {
+  border: 1px solid black;
+}
+
+.buttons {
+  margin-left: 2vw;
+  float: left;
+}
+
+.button {
+  color: gray;
+  background-color: #dedede;
+  text-decoration: none;
+  padding: 1.5vw 1.5vw;
+  //display: block;
+  float: left;
+  margin: 1vw;
+  font-size: 1.5em;
+  display: flex;
+}
+
+.settingsgroupbox {
+  display: inline-flex;
+  float: right;
+  margin-bottom: 1vh;
+  //background-color: pink;
+  margin: 1vh;
+  padding: 2vh;
+  height: 1em;
+}
+
+.settingbox {
+  display: inline-flex;
+  margin-left: 1vw;
+  //background-color: #E0E0E0;
+  border-radius: 0.2em;
+}
+
+.settinglabel {
+  margin-left: 1.5vw;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+.setting {
+  display: inline-flex;
+  //float: center;
+  text-align: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  text-size: 0.6em;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+p.spacer {
+  margin-bottom: 3.5vw;
+  margin-top: 1vw;
+  visibility: hidden;
+}
+
+#yourcode {
+  text-align: center;
+  display: inline-block;
+  //margin-right: 30vw;
+  //margin-left: 30vw;
+  //margin-top: 4vw;
+  font-size: 1.5em;
+  margin: 0.1em;
+  width: 60vw;
+}
+
+#staticlengthfield {
+  width: 3em;
+}
+
+#code {
+  width: 90vw;
+  height: 20vh;
+  font-size: 1.2em;
+  background-color: #dddddd;
+  font-family: "monospace";
+}
+
+#codecontainer {
+  padding: 0.0vw;
+  text-align: center;
+  //background-color: gray;
+}
+
+#output {
+  background-color: lightgray;
+  padding: 2vw
+}
+
+.outputbox {
+  font-size: 1.2em;
+}
+
+#input {
+  width: 1.5vw;
+  padding: 1vw;
+  background-color: #dddddd;
+  display: inline-block;
+}
+
+.buttons {
+  display: inline-block;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  //width: 20vw;
+  left: -100vw;
+  border-radius: 5px;
+  border: 2px solid darkgray;
+  background-color: white;
+}
+
+.settingbox:hover ~ .tooltip {
+  display: none;
+}
+
+/*
+* {
+  background-color: red;
+}
+
+* * {
+  background-color: orange;
+}
+
+* * * {
+  background-color: yellow;
+}
+
+* * * * {
+  background-color: yellowgreen;
+}
+
+* * * * * {
+  background-color: green;
+  outline: 1px solid black;
+}
+
+* * * * * * {
+  background-color: blue;
+}
+*/
